@@ -14,7 +14,7 @@ const cssDev = [
 	{
 		loader: 'sass-resources-loader',
 		options: {
-			// Provide path to the file with resources
+
 			resources: [
                 './src/resources.scss'
             ],
@@ -90,7 +90,7 @@ module.exports = {
         }),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
-        // Make sure this is after ExtractTextPlugin!
+        
         new PurifyCSSPlugin({
             // Give paths to parse for rules. These should be absolute!
             paths: glob.sync(path.join(__dirname, 'src/*.html'))
