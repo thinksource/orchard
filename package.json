@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "webpack-dev-server --devtool eval --progress --colors",
+    "build": "webpack",
     "prod": "npm run clean && NODE_ENV=production webpack -p",
     "clean": "rimraf ./dist/*"
   },
