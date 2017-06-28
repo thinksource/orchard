@@ -12,4 +12,4 @@
 
 ### ps:
 
-The JavaScript do not capture all anchor clicks, but only the element click, if you want capture all Propogation click. You need use all.js replace the onload.js
+The JavaScript do not capture all anchor clicks, but only the element click, if you want capture all Propogation click. You need use all.js replace the onload.js. The change of method making the js work more efficiency
