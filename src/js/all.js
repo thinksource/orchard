@@ -5,10 +5,10 @@ window.addEventListener("load",function(e){
     console.log(all[i]);
 
     all[i].addEventListener("click", function(e){
-      var event = new MouseEvent('click');
+      
       // e.stopPropagation();
       console.log(e.target.nodeName+" object click");
-      e.stopPropagation();
+      //e.stopPropagation();
     });
   }
 },false);
