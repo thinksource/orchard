@@ -39,7 +39,7 @@ const bootstrapConfig = isProd ? bootstrapEntryPoints.prod : bootstrapEntryPoint
 
 module.exports = {
     entry: {
-        app: './src/app.js',
+        app: ['./src/app.js','./src/js/onload.js'],
         bootstrap: bootstrapConfig
     },
     output: {
